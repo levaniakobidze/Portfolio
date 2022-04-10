@@ -1,0 +1,16 @@
+.button {
+  text-decoration: none;
+  height: 30px;
+  background-color: var(--main-green);
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: var(--main-white);
+  font-size: 14px;
+  border: 1px solid var(--main-green);
+  transition: all 0.3s;
+}
+.button:hover {
+  background: transparent;
+  color: var(--main-green);
+  box-shadow: 0 0 5px 1px var(--main-green);
+}

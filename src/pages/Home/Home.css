@@ -1,0 +1,54 @@
+.home {
+  width: 100%;
+  background-image: repeating-linear-gradient(
+      rgba(0, 0, 0, 0.8 5),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("../../pictures/rains.png");
+  height: 100vh;
+}
+
+.home-main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  height: 80vh;
+  justify-content: center;
+}
+
+.home-text h3 {
+  color: var(--main-white);
+}
+.home-text h1 {
+  color: var(--main-white);
+  padding: 10px 0;
+  border-right: 1px solid var(--main-white);
+  width: 380px;
+  font-size: 35px;
+}
+
+.home-text p {
+  color: var(--main-white);
+  font-size: 15px;
+  margin: 6px 0 0 0;
+}
+
+.home-img {
+  width: 306px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+}
+.home-img img {
+  width: 100%;
+}
+
+.home-btn {
+  margin: 40px 0 0 0;
+}
