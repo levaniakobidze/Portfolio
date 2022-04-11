@@ -25,7 +25,7 @@ function Home() {
             </div>
           </div>
           <div className='home-img'>
-            <img src={require("../../pictures/green.png")} alt='' />
+            <img src={require("../../pictures/greene.png")} alt='' />
           </div>
         </div>
       </Container>

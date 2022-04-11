@@ -1,16 +1,16 @@
 .home {
   width: 100%;
   background-image: repeating-linear-gradient(
-      rgba(0, 0, 0, 0.8 5),
+      rgba(0, 0, 0, 0.75),
       rgba(0, 0, 0, 0.95)
     ),
     url("../../pictures/rains.png");
-  height: 100vh;
 }
 
 .home-main-content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .home-text {
@@ -39,7 +39,7 @@
 }
 
 .home-img {
-  width: 306px;
+  width: 335px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,4 +51,17 @@
 
 .home-btn {
   margin: 40px 0 0 0;
+}
+
+@media screen and (max-width: 997px) {
+  .home-img {
+    margin-right: 0 !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
+  .home-img img {
+    width: 70%;
+  }
 }

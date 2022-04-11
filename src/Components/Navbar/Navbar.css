@@ -1,5 +1,5 @@
 :root {
-  --main-green: rgb(9, 199, 72);
+  --main-green: rgb(9, 199, 104);
   --main-white: #fff;
 }
 
@@ -48,22 +48,34 @@
 @media screen and (max-width: 682px) {
   .navbar-menu {
     position: absolute;
-    top: 5%;
-    left: -50%;
+    top: 10%;
+    left: -100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: var(--main-green);
-    width: 20%;
-    height: 100vh;
+    width: 100%;
     transition: all 0.3s;
   }
   .navbar-menu li {
-    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .navbar-menu li a {
+    font-size: 13px;
+    padding: 0 !important;
+    margin: 14px !important;
+  }
+  .active {
+    color: var(--main-white) !important;
   }
 
   .active-menu {
     left: 0% !important;
+    display: fixed !important;
   }
 
   .icon {
