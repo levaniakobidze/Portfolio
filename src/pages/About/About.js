@@ -5,13 +5,13 @@ import Button from "../../Components/Button/Button";
 
 function About() {
   return (
-    <div className='about'>
-      <Container className='about-cont'>
+    <div className='about' id='about'>
+      <Container className='about-cont' data-aos='fade-in'>
         <div className='about-main-content'>
-          <div className='about-img'>
-            <img src='https://images.pexels.com/photos/10508305/pexels-photo-10508305.jpeg?auto=compress&cs=tinysrgb&w=600' />
+          <div className='about-img' data-aos='fade-up'>
+            <img src={require("../../pictures/greene.png")} />
           </div>
-          <div className='about-text'>
+          <div className='about-text' data-aos='fade-up'>
             <div className='about-title'>
               <h2>
                 About <span>Me</span>

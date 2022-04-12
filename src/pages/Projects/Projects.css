@@ -1,0 +1,29 @@
+.projects {
+  width: 100%;
+}
+.projects-cont {
+  margin: 70px auto;
+  padding: 50px 0;
+}
+
+.projects-content-wrapper {
+  width: 100%;
+}
+
+.projects-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  padding: 40px 0;
+}
+.projects-header h1 {
+  color: white;
+}
+
+.projects-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

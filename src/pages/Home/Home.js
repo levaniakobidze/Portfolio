@@ -6,8 +6,8 @@ import Button from "../../Components/Button/Button";
 
 function Home() {
   return (
-    <div className='home'>
-      <Container>
+    <div className='home' id='home'>
+      <Container className='home-cont'>
         <Navbar />
         <div className='home-main-content'>
           <div className='home-text'>
@@ -24,9 +24,7 @@ function Home() {
               <Button href={"#"}> Hire Me</Button>
             </div>
           </div>
-          <div className='home-img'>
-            <img src={require("../../pictures/greene.png")} alt='' />
-          </div>
+          <div className='home-img'></div>
         </div>
       </Container>
     </div>

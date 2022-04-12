@@ -1,8 +1,10 @@
 .about {
   width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0.1), rgba(0, 0, 0, 0.99));
 }
 .about-cont {
-  padding: 150px 0 0 0;
+  margin-top: 70px;
+  padding: 60px 0 0 0;
 }
 
 .about-main-content {
@@ -15,13 +17,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  padding: 10px;
-  border: 10px solid var(--main-green);
+  width: 345px;
+  padding: 20px 0px;
 }
 
 .about-img img {
-  width: 100%;
+  width: 90%;
 }
 
 .about-text {
@@ -30,7 +31,7 @@
   align-items: left;
   width: 650px;
   color: white;
-  padding: 40px 0 0 0;
+  padding: 50px 0 0 0;
 }
 .about-p {
   margin: 20px 0 0 0;

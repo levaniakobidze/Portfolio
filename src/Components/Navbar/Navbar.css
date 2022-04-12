@@ -5,11 +5,20 @@
 
 .navbar {
   width: 100%;
-  padding: 15px 0;
+  padding: 15px 84px;
   color: var(--main-green);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0%;
+  right: 0;
+  left: 0;
+  transition: all 0.3s;
+  background-color: rgb(2, 75, 30);
+}
+.navbar-active {
+  background-color: #000 !important;
 }
 
 .navbar-menu {
@@ -31,9 +40,7 @@
 }
 .navbar-menu li a:hover {
   color: var(--main-green);
-}
-.active {
-  color: var(--main-green) !important;
+  border-bottom: 2px solid var(--main-white);
 }
 
 .icon {

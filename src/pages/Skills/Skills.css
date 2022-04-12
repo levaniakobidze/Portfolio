@@ -1,0 +1,28 @@
+.skills {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.skills-cont {
+  padding: 100px 0;
+}
+
+.skills-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.skills-header h1 {
+  color: var(--main-white);
+}

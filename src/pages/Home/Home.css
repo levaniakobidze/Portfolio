@@ -4,7 +4,12 @@
       rgba(0, 0, 0, 0.75),
       rgba(0, 0, 0, 0.95)
     ),
-    url("../../pictures/rains.png");
+    url("https://wallpaperaccess.com/full/5170170.png");
+  background-position: center;
+  background-size: cover;
+}
+.home-cont {
+  padding-top: 75px;
 }
 
 .home-main-content {
@@ -25,13 +30,17 @@
   color: var(--main-white);
 }
 .home-text h1 {
-  color: var(--main-white);
-  padding: 10px 0;
   border-right: 1px solid var(--main-white);
-  width: 380px;
-  font-size: 35px;
+  font-size: 40px;
+  width: 430px;
+  padding: 20px 0;
+  color: var(--main-green);
+  transition: all 0.5s;
 }
 
+.home-text h1:hover {
+  border-right: 1px solid var(--main-green) !important ;
+}
 .home-text p {
   color: var(--main-white);
   font-size: 15px;
