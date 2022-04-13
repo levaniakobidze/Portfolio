@@ -26,6 +26,10 @@ function Home() {
           </div>
           <div className='home-img'></div>
         </div>
+
+        <a className='up-btn' href='#home'>
+          ^
+        </a>
       </Container>
     </div>
   );
