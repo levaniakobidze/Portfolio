@@ -27,3 +27,12 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.project-back {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transition: all 0.4s;
+  background: var(--main-green) !important;
+}

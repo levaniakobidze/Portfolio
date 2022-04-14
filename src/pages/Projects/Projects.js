@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "../../Components/Container/Container";
 import "./Projects.css";
 import { data } from "../../Components/ProjectItem/ProjectItemData";
 import ProjectItem from "../../Components/ProjectItem/ProjectItem";
-console.log(data);
 
 function Projects() {
+  const [color, setColor] = useState(false);
+
+  const changeColor = () => {
+    if (window.scrollY >= 1900) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <div className='projects' id='projects'>
+    <div className={"projects"} id='projects'>
       <Container className='projects-cont'>
         <div className='projects-content-wrapper'>
           <div className='projects-header'>

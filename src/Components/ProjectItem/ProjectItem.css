@@ -2,6 +2,7 @@
   width: 350px;
   margin: 50px 0 0 0;
   background-color: rgb(19, 19, 19);
+  box-shadow: 0 0 10px 1px rgb(206, 206, 206);
   transition: all 1s !important;
   border-bottom: 5px solid var(--main-green);
   display: flex;

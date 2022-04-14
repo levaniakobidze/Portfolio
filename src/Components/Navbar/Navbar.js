@@ -38,7 +38,7 @@ function Navbar() {
             <a href='#'>Portfolio</a>
           </li>
           <li onClick={() => setClick(true)}>
-            <a href='#'>Contact</a>
+            <a href='#contact'>Contact</a>
           </li>
         </ul>
 
