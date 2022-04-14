@@ -74,6 +74,7 @@
   justify-content: center;
   align-items: center;
   position: fixed;
+  text-align: center;
   top: 80%;
   cursor: pointer;
   right: 1%;
@@ -90,7 +91,7 @@
   display: block;
 }
 span {
-  transition: all 0.6s;
+  transition: all 0.3s;
 }
 span:hover {
   font-size: 55px;

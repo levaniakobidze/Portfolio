@@ -1,26 +1,69 @@
 .project-item {
-  width: 350px;
+  width: 300px;
   margin: 50px 0 0 0;
-  background-color: rgb(19, 19, 19);
-  box-shadow: 0 0 10px 1px rgb(206, 206, 206);
-  transition: all 1s !important;
-  border-bottom: 5px solid var(--main-green);
+  background-image: linear-gradient(
+    rgba(9, 199, 104, 0.15),
+    rgba(9, 199, 104, 0.15)
+  );
+  transition: all 0.4s !important;
   display: flex;
   text-decoration: none;
   flex-direction: column;
   align-items: center;
+  border-radius: 50%;
+  height: 210px;
 }
 .project-item:hover {
   background-color: var(--main-green);
+  box-shadow: 0 0 10px 1px var(--main-green);
 }
 
 .project-image {
   width: 100%;
-  transition: all 20s;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
   opacity: 1;
 }
+
+.image-hover {
+  filter: blur(2px);
+}
+.text {
+  position: absolute;
+  top: 35%;
+  font-size: 20px;
+  color: var(--main-white);
+}
+.project-image-hover {
+  animation: turn 0.5s ease-in forwards;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+    margin-top: 6px;
+  }
+  20% {
+    transform: rotate(10deg);
+    margin: -6px 0 0 0;
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .project-image img {
   width: 100%;
+  border-radius: 100%;
+  border: 2px solid var(--main-green);
+  box-shadow: 0 0 10px 2px var(--main-green);
 }
 .hidden {
   opacity: 0;
@@ -50,7 +93,6 @@
   margin: 15px 0 0 0;
   transition: all 0.5s;
   opacity: 0;
-  display: none;
 }
 
 .hover-content-hover {
@@ -59,4 +101,18 @@
 }
 .project-title {
   width: 100%;
+}
+
+.links {
+  width: 50%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  opacity: 1;
+}
+
+.link-icon {
+  font-size: 30px;
+  color: var(--main-white);
+  text-decoration: none;
 }

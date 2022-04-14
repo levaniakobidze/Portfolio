@@ -9,7 +9,7 @@ function About() {
       <Container className='about-cont' data-aos='fade-in'>
         <div className='about-main-content'>
           <div className='about-img' data-aos='fade-up'>
-            <img src={require("../../pictures/greene.png")} />
+            <img src={require("../../pictures/main-image.png")} />
           </div>
           <div className='about-text' data-aos='fade-up'>
             <div className='about-title'>

@@ -16,6 +16,8 @@
   left: 0;
   transition: all 0.3s;
   background-color: rgb(2, 75, 30);
+
+  z-index: 10000;
 }
 .navbar-active {
   background-color: #000 !important;

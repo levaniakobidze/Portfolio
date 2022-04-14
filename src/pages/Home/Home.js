@@ -3,6 +3,7 @@ import "./Home.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import Container from "../../Components/Container/Container";
 import Button from "../../Components/Button/Button";
+import { BiUpArrow } from "react-icons/bi";
 
 function Home() {
   const [upBtn, setUpBtn] = useState(false);
@@ -59,7 +60,7 @@ function Home() {
         </div>
 
         <a className={!upBtn ? "up-btn" : "up-btn up-btn-active"} href='#home'>
-          ^
+          <BiUpArrow />
         </a>
       </Container>
     </div>

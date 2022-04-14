@@ -27,7 +27,14 @@ function Projects() {
           </div>
           <div className='projects-wrapper'>
             {data.map((project) => {
-              return <ProjectItem img={project.img} title={project.title} />;
+              return (
+                <ProjectItem
+                  img={project.img}
+                  title={project.title}
+                  host={project.host}
+                  github={project.github}
+                />
+              );
             })}
           </div>
         </div>
