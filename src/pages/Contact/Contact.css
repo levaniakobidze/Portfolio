@@ -1,15 +1,11 @@
 .contact {
-  background-image: linear-gradient(
-      rgba(9, 199, 104, 0.85),
-      rgba(9, 199, 104, 0.1)
-    ),
-    url("https://wallpaperaccess.com/full/5170170.png");
   background-position: center;
   background-size: cover;
   padding: 100px 0;
 }
 .contact-cont {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
 }
@@ -35,16 +31,24 @@
   margin: 10px 0 0 0;
   color: #fff;
   padding: 0 10px;
-  background-color: #000;
+  background-color: rgb(32, 32, 32);
+  transition: all 0.3s;
+  box-shadow: 0 0 7px 0.1px rgb(136, 136, 136);
+  margin: 10px 0;
+}
+
+.inputs input:focus {
+  background-color: var(--main-green);
+  color: #000;
 }
 ::placeholder {
-  color: #fff;
+  color: var(--main-green);
 }
 
 .message {
   display: flex;
   padding-top: 15px !important;
-  padding-bottom: 200px !important;
+  padding-bottom: 150px !important;
   color: var(--main-white);
 }
 .submit-btn {
@@ -57,15 +61,384 @@
   height: 40px;
   border: 0;
   outline: 0;
-  background-color: #000;
+  background-color: var(--main-green);
   color: var(--main-white);
   margin: 10px 0 0 0;
+  font-weight: 700;
   cursor: pointer;
-  border: 1px solid #000;
+  border: 1px solid var(--main-green);
+  transition: all 0.5s;
 }
 
 .submit-btn button:hover {
   background-color: var(--main-green);
   box-shadow: 0 0 10px 1px #000;
-  color: #000;
+  background-color: transparent;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.contact-title h1 {
+  color: var(--main-white);
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
+  width: 35rem;
+  align-items: center;
+}
+.socials-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 44%;
+  align-items: center;
+  width: 30%;
+}
+.socials-title h2 {
+  color: var(--main-white);
+  animation: opacityminus 2s forwards;
+  display: flex;
+}
+
+.h2-non-active {
+  display: none !important;
+}
+.sircles-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sircle1 {
+  width: 350px;
+  height: 350px;
+  border: 2px solid var(--main-green);
+  animation: moveColor 1.5s forwards infinite;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: move 15s forwards infinite;
+  transition: all 2s;
+}
+
+.sircle1-active {
+  filter: blur(7px);
+}
+
+.sircle2 {
+  width: 280px;
+  height: 280px;
+  border: 2px solid var(--main-green);
+  animation: moveColor 1.5s forwards infinite;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sircle3 {
+  width: 210px;
+  height: 210px;
+  border: 2px solid var(--main-green);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  animation: moveLeft 14s forwards infinite;
+}
+
+.sircle4 {
+  width: 150px;
+  height: 150px;
+  border: 2px solid var(--main-green);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: moveColor 1.5s forwards infinite;
+}
+
+.github-icon1 {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  cursor: pointer;
+  top: -3.7%;
+  animation: moveicon 5s forwards infinite;
+}
+.github {
+  width: 30px;
+  height: 30px;
+}
+
+.github-icon2 {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  cursor: pointer;
+  top: 97%;
+  animation: moveicon 5s forwards infinite;
+}
+.github-icon3 {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: -4%;
+  animation: moveicon 5s forwards infinite;
+}
+
+.github-icon4 {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  right: -4%;
+  animation: moveicon 9s forwards infinite;
+}
+
+.linkedin-icon1 {
+  width: 23px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 27px;
+  position: absolute;
+  top: -5%;
+}
+.linkedin {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.linkedin-icon2 {
+  width: 23px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 27px;
+  position: absolute;
+  top: 95%;
+}
+
+.fb-icon1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 27px;
+  position: absolute;
+  right: 7%;
+  top: 15%;
+}
+
+.fb-icon2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 27px;
+  position: absolute;
+  right: 9.7%;
+  top: 80%;
+}
+
+.fb-icon3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 27px;
+  position: absolute;
+  left: 13%;
+  top: 10%;
+}
+
+.fb-icon4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 27px;
+  position: absolute;
+  left: 9%;
+  top: 80%;
+}
+
+.socials {
+  align-items: center;
+  display: none;
+  transition: all 2s;
+  opacity: 0;
+}
+
+.soc-icon {
+  font-size: 30px;
+  margin: 3px;
+  color: var(--main-white);
+}
+.socials-active {
+  animation: opacity 2s forwards;
+  display: flex;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityminus {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(20deg);
+  }
+  30% {
+    transform: rotate(80deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  70% {
+    transform: rotate(200deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(-20deg);
+  }
+  30% {
+    transform: rotate(-80deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  70% {
+    transform: rotate(-200deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes moveicon {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-30deg);
+  }
+  30% {
+    transform: rotate(-80deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  70% {
+    transform: rotate(-200deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes moveColor {
+  0% {
+    box-shadow: inset 0 0 10px 1px var(--main-green);
+  }
+  20% {
+    box-shadow: inset 0 0 40px 1px var(--main-green);
+  }
+  50% {
+    box-shadow: inset 0 0 50px 1px var(--main-green);
+  }
+  80% {
+    box-shadow: inset 0 0 40px 1px var(--main-green);
+  }
+  100% {
+    box-shadow: inset 0 0 30px 1px var(--main-green);
+  }
 }

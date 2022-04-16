@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [click, setClick] = useState(true);
   const [colorChange, setColorchange] = useState(false);
+  const [addMenuColor, setAddMenuColor] = useState("h");
+
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {
       setColorchange(true);
@@ -16,6 +18,19 @@ function Navbar() {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
+
+  const menuColor = () => {
+    if (window.scrollY >= 0 && window.scrollY < 190) {
+      setAddMenuColor("h");
+    } else if (window.scrollY > 190 && window.scrollY < 210) {
+      setAddMenuColor("a");
+    } else if (window.scrollY > 310 && window.scrollY < 500) {
+      addMenuColor("p");
+    }
+  };
+
+  window.addEventListener("scroll", menuColor);
+
   return (
     <Container>
       <nav className={!colorChange ? "navbar" : "navbar navbar-active"}>
@@ -24,15 +39,26 @@ function Navbar() {
         </div>
         <ul className={click ? "navbar-menu" : "navbar-menu active-menu"}>
           <li onClick={() => setClick(true)}>
-            <a href='#home' className='active' tabindex='1'>
+            <a
+              href='#home'
+              className={addMenuColor === "h" ? "menu-active" : "sdasda"}
+              tabindex='1'>
               Home
             </a>
           </li>
           <li onClick={() => setClick(true)}>
-            <a href='#about'>About</a>
+            <a
+              href='#about'
+              className={addMenuColor === "a" ? "menu-active" : "asdasda"}>
+              About
+            </a>
           </li>
           <li>
-            <a href='#projects'>Projects</a>
+            <a
+              href='#projects'
+              className={addMenuColor === "p" ? "menu-active" : "asdasda"}>
+              Projects
+            </a>
           </li>
           <li onClick={() => setClick(true)}>
             <a href='#'>Portfolio</a>

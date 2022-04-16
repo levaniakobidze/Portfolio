@@ -1,20 +1,94 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "../../Components/Container/Container";
 import "./Contact.css";
+import { AiFillGithub } from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
+import { AiFillLinkedin } from "react-icons/ai";
 
 function Contact() {
+  const [hover, setHover] = useState(false);
+
   return (
     <div className='contact' id='contact'>
       <Container className='contact-cont'>
-        <div className='left-side'>
-          <form className='inputs'>
-            <input type='text' placeholder='FullName' />
-            <input type='text' placeholder='Email' />
-            <input className='message' type='text' placeholder='Your message' />
-            <div className='submit-btn'>
-              <button>Send</button>
+        <div className='contact-title'>
+          <h1>
+            Contact <span>Me</span>
+          </h1>
+        </div>
+        <div className='contact-wrapper'>
+          <div className='left-side'>
+            <form className='inputs'>
+              <input type='text' placeholder='FullName' />
+              <input type='email' placeholder='Email' />
+              <input
+                className='message'
+                type='text'
+                placeholder='Your message'
+              />
+              <div className='submit-btn'>
+                <button>Send</button>
+              </div>
+            </form>
+          </div>
+          <div className='right-side'>
+            <div className='socials-title'>
+              <h2 className={hover && "h2-non-active"}>Socials</h2>
+              <div className={hover ? "socials socials-active" : "socials"}>
+                <a href='#'>
+                  <BsFacebook className='soc-icon' />{" "}
+                </a>
+                <a href='#'>
+                  <AiFillGithub className='soc-icon' />{" "}
+                </a>
+                <a href='#'>
+                  <AiFillLinkedin className='soc-icon' />{" "}
+                </a>
+              </div>
             </div>
-          </form>
+            <div className='sircles-cont'>
+              <div
+                className={hover ? "sircle1 sircle1-active" : "sircle1"}
+                onMouseOver={() => setHover(true)}
+                onMouseLeave={() => setHover(false)}>
+                <div className='github-icon1'>
+                  <AiFillGithub className='github' />
+                </div>
+                <div className='github-icon2'>
+                  <AiFillGithub className='github' />
+                </div>
+                <div className='github-icon3'>
+                  <AiFillGithub className='github' />
+                </div>
+                <div className='github-icon4'>
+                  <AiFillGithub className='github' />
+                </div>
+                <div className='fb-icon1'>
+                  <BsFacebook className='fb' />
+                </div>
+                <div className='fb-icon2'>
+                  <BsFacebook className='fb' />
+                </div>
+                <div className='fb-icon3'>
+                  <BsFacebook className='fb' />
+                </div>
+                <div className='fb-icon4'>
+                  <BsFacebook className='fb' />
+                </div>
+                <div className='sircle2'>
+                  <div className='sircle3'>
+                    <div className='linkedin-icon1'>
+                      <AiFillLinkedin className='linkedin' />
+                    </div>
+                    <div className='linkedin-icon2'>
+                      <AiFillLinkedin className='linkedin' />
+                    </div>
+                    <div className='sircle4'></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </Container>
     </div>
