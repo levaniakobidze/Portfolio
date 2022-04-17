@@ -34,42 +34,44 @@ function Navbar() {
   return (
     <Container>
       <nav className={!colorChange ? "navbar" : "navbar navbar-active"}>
-        <div className='navbar-logo-wrapper'>
-          <h1>Portfolio</h1>
-        </div>
-        <ul className={click ? "navbar-menu" : "navbar-menu active-menu"}>
-          <li onClick={() => setClick(true)}>
-            <a
-              href='#home'
-              className={addMenuColor === "h" ? "menu-active" : "sdasda"}
-              tabindex='1'>
-              Home
-            </a>
-          </li>
-          <li onClick={() => setClick(true)}>
-            <a
-              href='#about'
-              className={addMenuColor === "a" ? "menu-active" : "asdasda"}>
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href='#projects'
-              className={addMenuColor === "p" ? "menu-active" : "asdasda"}>
-              Projects
-            </a>
-          </li>
-          <li onClick={() => setClick(true)}>
-            <a href='#'>Portfolio</a>
-          </li>
-          <li onClick={() => setClick(true)}>
-            <a href='#contact'>Contact</a>
-          </li>
-        </ul>
+        <div className='navbar-content'>
+          <div className='navbar-logo-wrapper'>
+            <h1>Portfolio</h1>
+          </div>
+          <ul className={click ? "navbar-menu" : "navbar-menu active-menu"}>
+            <li onClick={() => setClick(true)}>
+              <a
+                href='#home'
+                className={addMenuColor === "h" ? "menu-active" : "sdasda"}
+                tabindex='1'>
+                Home
+              </a>
+            </li>
+            <li onClick={() => setClick(true)}>
+              <a
+                href='#about'
+                className={addMenuColor === "a" ? "menu-active" : "asdasda"}>
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href='#projects'
+                className={addMenuColor === "p" ? "menu-active" : "asdasda"}>
+                Projects
+              </a>
+            </li>
+            <li onClick={() => setClick(true)}>
+              <a href='#'>Portfolio</a>
+            </li>
+            <li onClick={() => setClick(true)}>
+              <a href='#contact'>Contact</a>
+            </li>
+          </ul>
 
-        <div className='icon' onClick={() => setClick(!click)}>
-          {click ? <FiMenu onClick={() => setClick(!false)} /> : <FaTimes />}
+          <div className='icon' onClick={() => setClick(!click)}>
+            {click ? <FiMenu onClick={() => setClick(!false)} /> : <FaTimes />}
+          </div>
         </div>
       </nav>
     </Container>

@@ -14,11 +14,10 @@
   width: 100%;
   display: flex;
   justify-content: center;
-
   padding: 40px 0;
 }
 .projects-header h1 {
-  color: white;
+  color: var(--main-white);
 }
 
 .projects-wrapper {
@@ -35,4 +34,11 @@
   flex-wrap: wrap;
   transition: all 0.4s;
   background: var(--main-green) !important;
+}
+
+@media screen and (max-width: 657px) {
+  .projects-wrapper {
+    display: flex;
+    justify-content: center;
+  }
 }

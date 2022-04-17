@@ -12,6 +12,8 @@
   align-items: center;
   border-radius: 50%;
   height: 210px;
+  position: relative;
+  color: var(--main-white);
 }
 .project-item:hover {
   background-color: var(--main-green);
@@ -24,14 +26,13 @@
   display: flex;
   justify-content: center;
   opacity: 1;
+  z-index: 1000;
 }
 
 .image-hover {
   filter: blur(2px);
 }
 .text {
-  position: absolute;
-  top: 35%;
   font-size: 20px;
   color: var(--main-white);
 }
@@ -84,12 +85,21 @@
   width: 100%;
 }
 
-.links {
-  width: 50%;
-  margin: 10px auto;
+.links-cont {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   opacity: 1;
+  position: absolute;
+  text-align: center;
+}
+.links {
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link-icon {

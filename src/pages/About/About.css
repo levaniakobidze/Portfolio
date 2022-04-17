@@ -53,7 +53,7 @@ span {
 }
 
 .about-list-item h5 {
-  color: var(--main-white);
+  color: var(--main-green);
 }
 .about-list-item p {
 }
@@ -63,4 +63,10 @@ span {
 .about-btn {
   margin: 45px 0 0 0;
   cursor: pointer;
+}
+
+@media screen and (max-width: 998px) {
+  .about-text {
+    width: 500px;
+  }
 }

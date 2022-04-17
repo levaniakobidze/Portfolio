@@ -17,7 +17,7 @@ function Contact() {
           </h1>
         </div>
         <div className='contact-wrapper'>
-          <div className='left-side'>
+          <div className='left-side' data-aos='fade-right'>
             <form className='inputs'>
               <input type='text' placeholder='FullName' />
               <input type='email' placeholder='Email' />
@@ -31,12 +31,13 @@ function Contact() {
               </div>
             </form>
           </div>
-          <div className='right-side'>
+          <div className='right-side' data-aos='fade-up'>
             <div className='socials-title'>
               <h2 className={hover && "h2-non-active"}>Socials</h2>
               <div className={hover ? "socials socials-active" : "socials"}>
-                <a href='#'>
-                  <BsFacebook className='soc-icon' />{" "}
+                <a href='https://github.com/levaniakobidze'>
+                  <BsFacebook className='soc-icon' />
+                  {""}
                 </a>
                 <a href='#'>
                   <AiFillGithub className='soc-icon' />{" "}

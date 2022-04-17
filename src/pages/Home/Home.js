@@ -56,7 +56,6 @@ function Home() {
               <Button href={"#"}> Hire Me</Button>
             </div>
           </div>
-          <div className='home-img'></div>
         </div>
 
         <a className={!upBtn ? "up-btn" : "up-btn up-btn-active"} href='#home'>
