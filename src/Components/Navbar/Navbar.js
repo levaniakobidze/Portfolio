@@ -38,32 +38,19 @@ function Navbar() {
           <div className='navbar-logo-wrapper'>
             <h1>Portfolio</h1>
           </div>
-          <ul className={click ? "navbar-menu" : "navbar-menu active-menu"}>
+          <ul className={click ? "navbar-menu" : "navbar-menu menu-active"}>
             <li onClick={() => setClick(true)}>
-              <a
-                href='#home'
-                className={addMenuColor === "h" ? "menu-active" : "sdasda"}
-                tabindex='1'>
+              <a href='#home' tabindex='1'>
                 Home
               </a>
             </li>
             <li onClick={() => setClick(true)}>
-              <a
-                href='#about'
-                className={addMenuColor === "a" ? "menu-active" : "asdasda"}>
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href='#projects'
-                className={addMenuColor === "p" ? "menu-active" : "asdasda"}>
-                Projects
-              </a>
+              <a href='#about'>About</a>
             </li>
             <li onClick={() => setClick(true)}>
-              <a href='#'>Portfolio</a>
+              <a href='#projects'>Projects</a>
             </li>
+
             <li onClick={() => setClick(true)}>
               <a href='#contact'>Contact</a>
             </li>
