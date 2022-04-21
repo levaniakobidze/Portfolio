@@ -15,10 +15,10 @@ function ProjectItem(props) {
       onMouseOver={() => setOnHover(false)}>
       <div className='links-cont'>
         <div className='links'>
-          <a href={props.github}>
+          <a href={props.github} target='_blank'>
             <AiFillGithub className='link-icon' />
           </a>
-          <a href={props.host}>
+          <a href={props.host} target='_blank'>
             <FaGhost className='link-icon' />
           </a>
         </div>
