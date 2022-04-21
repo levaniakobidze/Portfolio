@@ -29,10 +29,10 @@ export const data = [
   },
   {
     id: 5,
-    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1649954772/landing_v1fmpo.png",
-    host: "",
-    title: "Calculator",
-    github: "",
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650572253/todoo_zt2uiz.png",
+    host: "https://todo-app-with-react12.netlify.app/",
+    title: "Todo-App",
+    github: "https://github.com/levaniakobidze/React-Todo-app",
   },
   {
     id: 6,

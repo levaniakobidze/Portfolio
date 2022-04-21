@@ -69,7 +69,7 @@
   right: 1%;
   text-decoration: none;
   color: var(--main-white);
-
+  font-size: 29px;
   display: none;
 }
 .up-btn:hover {

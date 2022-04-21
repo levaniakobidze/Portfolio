@@ -98,8 +98,9 @@
 .links {
   margin: 15px auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 70px;
 }
 
 .link-icon {
