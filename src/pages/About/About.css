@@ -70,3 +70,10 @@ span {
     width: 500px;
   }
 }
+
+@media screen and (max-width: 558px) {
+  .about-img {
+    width: 250px;
+    padding: 0px;
+  }
+}
