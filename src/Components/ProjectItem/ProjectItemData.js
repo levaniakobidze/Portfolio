@@ -36,9 +36,9 @@ export const data = [
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1649954795/todo_twurhv.png",
-    host: "",
-    title: "Typehead",
-    github: "",
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1651179636/ytclone_uuueoy.png",
+    host: "https://clonetube1.netlify.app/",
+    title: "YouTube clone",
+    github: "https://github.com/levaniakobidze/Youtube-Clone",
   },
 ];

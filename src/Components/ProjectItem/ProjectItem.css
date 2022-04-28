@@ -23,6 +23,7 @@
 .project-image {
   width: 100%;
   transition: all 1s;
+  transition-delay: 0.4s;
   display: flex;
   justify-content: center;
   opacity: 1;
@@ -38,6 +39,7 @@
 }
 .project-image-hover {
   animation: turn 0.5s ease-in forwards;
+
   margin-top: 100px;
 }
 
