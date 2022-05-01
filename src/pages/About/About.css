@@ -37,10 +37,6 @@
   margin: 20px 0 0 0;
 }
 
-span {
-  color: var(--main-green);
-}
-
 .about-list {
   display: flex;
   flex-direction: column;

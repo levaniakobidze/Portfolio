@@ -22,7 +22,7 @@ function Projects() {
         <div className='projects-content-wrapper'>
           <div className='projects-header'>
             <h1>
-              My <span className='dot'>Projects</span>
+              My <tag className='dot'>Projects</tag>
             </h1>
           </div>
           <div className='projects-wrapper'>

@@ -41,4 +41,25 @@ export const data = [
     title: "YouTube clone",
     github: "https://github.com/levaniakobidze/Youtube-Clone",
   },
+  {
+    id: 7,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1651425412/traff11_niyc3h.png",
+    host: "https://ltrafalgar.netlify.app/",
+    title: "Landing page",
+    github: "https://github.com/levaniakobidze/trafalgar-landing-page",
+  },
+  {
+    id: 8,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1651425412/traff11_niyc3h.png",
+    host: "https://clonetube1.netlify.app/",
+    title: "YouTube clone",
+    github: "https://github.com/levaniakobidze/Youtube-Clone",
+  },
+  {
+    id: 9,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1651179636/ytclone_uuueoy.png",
+    host: "https://clonetube1.netlify.app/",
+    title: "YouTube clone",
+    github: "https://github.com/levaniakobidze/Youtube-Clone",
+  },
 ];

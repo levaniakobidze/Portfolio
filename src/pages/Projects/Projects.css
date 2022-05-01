@@ -16,6 +16,10 @@
   justify-content: center;
   padding: 40px 0;
 }
+tag {
+  color: var(--main-green);
+  margin: 0 5px;
+}
 .projects-header h1 {
   color: var(--main-white);
 }

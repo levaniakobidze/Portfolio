@@ -14,7 +14,7 @@ function About() {
           <div className='about-text' data-aos='fade-up'>
             <div className='about-title'>
               <h2>
-                About <span>Me</span>
+                About <tag>Me</tag>
               </h2>
             </div>
             <div className='about-p'>
@@ -31,28 +31,25 @@ function About() {
 
             <div className='about-list'>
               <div className='about-list-item'>
-                <h5>Name</h5> <span className='dot'>:</span>
+                <h5>Name</h5> <tag>:</tag>
                 <p>Levan ikaobidze</p>
               </div>
 
               <div className='about-list-item'>
-                <h5>Age </h5> <span className='dot'>:</span>
+                <h5>Age </h5> <tag>:</tag>
                 <p>20</p>
               </div>
 
               <div className='about-list-item'>
-                <h5>Adress</h5> <span className='dot'>:</span>{" "}
-                <p>Georgia, Tbilisi</p>
+                <h5>Adress</h5> <tag>:</tag> <p>Georgia, Tbilisi</p>
               </div>
 
               <div className='about-list-item'>
-                <h5>Phone</h5> <span className='dot'>:</span>{" "}
-                <p>(+995) 598-13-23-16</p>
+                <h5>Phone</h5> <tag>:</tag> <p>(+995) 598-13-23-16</p>
               </div>
 
               <div className='about-list-item'>
-                <h5>Email</h5> <span className='dot'>:</span>{" "}
-                <p>levaniakobidze25@gmail.com</p>
+                <h5>Email</h5> <tag>:</tag> <p>levaniakobidze25@gmail.com</p>
               </div>
             </div>
             <div className='about-btn'>

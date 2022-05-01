@@ -13,7 +13,7 @@ function Contact() {
       <Container className='contact-cont'>
         <div className='contact-title'>
           <h1>
-            Contact <span>Me</span>
+            Contact <tag className='contact-title-span'>Me</tag>
           </h1>
         </div>
         <div className='contact-wrapper'>
