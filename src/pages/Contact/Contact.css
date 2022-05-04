@@ -331,12 +331,21 @@
   display: none;
   transition: all 2s;
   opacity: 0;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
 }
 
+.github-link {
+  color: red;
+}
 .soc-icon {
   font-size: 30px;
   margin: 3px;
   color: var(--main-white);
+  cursor: pointer !important;
+  z-index: 10;
+  position: relative;
 }
 .socials-active {
   animation: opacity 2s forwards;

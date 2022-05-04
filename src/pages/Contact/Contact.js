@@ -34,12 +34,13 @@ function Contact() {
           <div className='right-side' data-aos='fade-up'>
             <div className='socials-title'>
               <h2 className={hover && "h2-non-active"}>Socials</h2>
+
               <div className={hover ? "socials socials-active" : "socials"}>
                 <a href='https://github.com/levaniakobidze'>
                   <BsFacebook className='soc-icon' />
                   {""}
                 </a>
-                <a href='#'>
+                <a href='#' className='githib-link'>
                   <AiFillGithub className='soc-icon' />{" "}
                 </a>
                 <a href='#'>

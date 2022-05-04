@@ -15,3 +15,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(0, 0, 0);
 }
+::selection {
+  background-color: rgb(9, 199, 104) !important;
+  color: #fff !important ;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
