@@ -4,6 +4,7 @@ import "./Contact.css";
 import { AiFillGithub } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
+import ContactForm from "./ContactForm/ContactForm";
 
 function Contact() {
   const [hover, setHover] = useState(false);
@@ -18,18 +19,7 @@ function Contact() {
         </div>
         <div className='contact-wrapper'>
           <div className='left-side' data-aos='fade-right'>
-            <form className='inputs'>
-              <input type='text' placeholder='FullName' />
-              <input type='email' placeholder='Email' />
-              <input
-                className='message'
-                type='text'
-                placeholder='Your message'
-              />
-              <div className='submit-btn'>
-                <button>Send</button>
-              </div>
-            </form>
+            <ContactForm />
           </div>
           <div className='right-side' data-aos='fade-up'>
             <div className='socials-title'>

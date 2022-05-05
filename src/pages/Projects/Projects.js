@@ -26,9 +26,10 @@ function Projects() {
             </h1>
           </div>
           <div className='projects-wrapper'>
-            {data.map((project) => {
+            {data.map((project, index) => {
               return (
                 <ProjectItem
+                  key={index}
                   img={project.img}
                   title={project.title}
                   host={project.host}
