@@ -1,0 +1,18 @@
+html {
+  cursor: none;
+}
+#outer-cursor {
+  position: fixed;
+  z-index: 10000000000;
+  top: 20%;
+  left: 10px;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 0 10px 1px #fff;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: all 0.1s;
+}

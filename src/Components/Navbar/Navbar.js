@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [click, setClick] = useState(true);
   const [colorChange, setColorchange] = useState(false);
-  const [addMenuColor, setAddMenuColor] = useState("h");
 
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {
@@ -18,18 +17,6 @@ function Navbar() {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
-
-  const menuColor = () => {
-    if (window.scrollY >= 0 && window.scrollY < 190) {
-      setAddMenuColor("h");
-    } else if (window.scrollY > 190 && window.scrollY < 210) {
-      setAddMenuColor("a");
-    } else if (window.scrollY > 310 && window.scrollY < 500) {
-      addMenuColor("p");
-    }
-  };
-
-  window.addEventListener("scroll", menuColor);
 
   return (
     <Container>

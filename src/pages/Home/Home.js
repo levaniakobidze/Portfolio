@@ -7,6 +7,7 @@ import { GoArrowSmallUp } from "react-icons/go";
 
 function Home() {
   const [upBtn, setUpBtn] = useState(false);
+  const [homeBlur, setHomeBlur] = useState(false);
 
   const changeUpBtn = () => {
     if (window.scrollY >= 140) {
@@ -17,10 +18,18 @@ function Home() {
   };
   window.addEventListener("scroll", changeUpBtn);
 
+  const changeHomeBlur = () => {
+    if (window.scrollY >= 80) {
+      setHomeBlur(true);
+    } else {
+      setHomeBlur(false);
+    }
+  };
+  window.addEventListener("scroll", changeHomeBlur);
+
   return (
-    <div className='home' id='home'>
+    <div className={homeBlur ? "home blur" : "home"} id='home'>
       <Container className='home-cont'>
-        <Navbar />
         <div className='home-main-content'>
           <div className='home-text'>
             <h3>Hi, I'm Levan,</h3>

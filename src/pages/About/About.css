@@ -1,6 +1,9 @@
 .about {
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0.1), rgba(0, 0, 0, 0.99));
+  z-index: 2;
+  margin-top: 600px;
+  position: relative;
 }
 .about-cont {
   margin-top: 70px;

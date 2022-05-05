@@ -7,6 +7,13 @@
     url("https://wallpaperaccess.com/full/5170170.png");
   background-position: center;
   background-size: cover;
+  transition: all 0.5s;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+}
+.blur {
+  filter: blur(5px);
 }
 .home-cont {
   padding-top: 75px;

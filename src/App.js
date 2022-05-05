@@ -6,11 +6,15 @@ import Navbar from "./Components/Navbar/Navbar";
 import Skills from "./pages/Skills/Skills";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
+import React, { useRef } from "react";
+
 function App() {
   return (
     <div className='App'>
+      <Navbar />
       <Home />
       <About />
+      <Skills />
       <Projects />
       <Contact />
     </div>
