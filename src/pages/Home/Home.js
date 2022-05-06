@@ -3,20 +3,9 @@ import "./Home.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import Container from "../../Components/Container/Container";
 import Button from "../../Components/Button/Button";
-import { GoArrowSmallUp } from "react-icons/go";
 
 function Home() {
-  const [upBtn, setUpBtn] = useState(false);
   const [homeBlur, setHomeBlur] = useState(false);
-
-  const changeUpBtn = () => {
-    if (window.scrollY >= 140) {
-      setUpBtn(true);
-    } else {
-      setUpBtn(false);
-    }
-  };
-  window.addEventListener("scroll", changeUpBtn);
 
   const changeHomeBlur = () => {
     if (window.scrollY >= 80) {
@@ -67,12 +56,6 @@ function Home() {
               </div>
             </div>
           </div>
-
-          <a
-            className={!upBtn ? "up-btn" : "up-btn up-btn-active"}
-            href='#home'>
-            <GoArrowSmallUp />
-          </a>
         </Container>
       </div>
     </div>

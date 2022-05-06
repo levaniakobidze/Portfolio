@@ -41,11 +41,18 @@
 .about-p {
   margin: 20px 0 0 0;
 }
+.about-list-skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 .about-list {
   display: flex;
   flex-direction: column;
   padding: 10px 0 0 0;
+  width: 300px;
 }
 
 .about-list-item {
@@ -64,6 +71,35 @@
 .about-btn {
   margin: 45px 0 0 0;
   cursor: pointer;
+}
+.skills-wrapper {
+  display: flex;
+  padding: 10px 0;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+}
+.skills-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 25px 0;
+}
+.skills-items {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0 0 0;
+}
+.skill {
+  padding: 0 10px;
+  color: var(--main-green);
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.skill:hover {
+  color: #fff;
 }
 
 @media screen and (max-width: 998px) {

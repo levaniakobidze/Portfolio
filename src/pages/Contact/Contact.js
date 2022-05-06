@@ -23,22 +23,6 @@ function Contact() {
             <ContactForm />
           </div>
           <div className='right-side' data-aos='fade-up'>
-            <div className='socials-title'>
-              <h2 className={hover && "h2-non-active"}>Socials</h2>
-
-              <div className={hover ? "socials socials-active" : "socials"}>
-                <a href='https://github.com/levaniakobidze'>
-                  <BsFacebook className='soc-icon' />
-                  {""}
-                </a>
-                <a href='#' className='githib-link'>
-                  <AiFillGithub className='soc-icon' />{" "}
-                </a>
-                <a href='#'>
-                  <AiFillLinkedin className='soc-icon' />{" "}
-                </a>
-              </div>
-            </div>
             <div className='sircles-cont'>
               <div
                 className={hover ? "sircle1 sircle1-active" : "sircle1"}
@@ -78,6 +62,22 @@ function Contact() {
                     </div>
                     <div className='sircle4'></div>
                   </div>
+                </div>
+              </div>
+              <div className='socials-title'>
+                <h2>Socials</h2>
+
+                <div className={"socials"}>
+                  <a href='https://github.com/levaniakobidze'>
+                    <BsFacebook className='soc-icon fb' />
+                    {""}
+                  </a>
+                  <a href='#' className='githib-link'>
+                    <AiFillGithub className='soc-icon github' />{" "}
+                  </a>
+                  <a href='#'>
+                    <AiFillLinkedin className='soc-icon linkdin' />{" "}
+                  </a>
                 </div>
               </div>
             </div>

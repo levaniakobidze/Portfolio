@@ -49,31 +49,32 @@
 .socials-title {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  position: absolute;
-  top: 44%;
-  align-items: center;
-  width: 30%;
+  width: 260px;
+  border-radius: 20px;
 }
 .socials-title h2 {
   color: var(--main-white);
   animation: opacityminus 2s forwards;
   display: flex;
+  justify-content: center;
+
+  border-bottom: 2px solid var(--main-green);
+  padding: 20px 0;
 }
 
-.h2-non-active {
-  display: none !important;
-}
 .sircles-cont {
   width: 100%;
+  height: 290px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: top;
 }
 
 .sircle1 {
-  width: 350px;
-  height: 350px;
+  width: 220px;
+  height: 220px;
+  margin-top: 40px;
   border: 2px solid var(--main-green);
   animation: moveColor 1.5s forwards infinite;
   border-radius: 50%;
@@ -90,8 +91,8 @@
 }
 
 .sircle2 {
-  width: 280px;
-  height: 280px;
+  width: 170px;
+  height: 170px;
   border: 2px solid var(--main-green);
   animation: moveColor 1.5s forwards infinite;
   border-radius: 50%;
@@ -102,8 +103,8 @@
 }
 
 .sircle3 {
-  width: 210px;
-  height: 210px;
+  width: 110px;
+  height: 110px;
   border: 2px solid var(--main-green);
   border-radius: 50%;
   display: flex;
@@ -116,8 +117,8 @@
 }
 
 .sircle4 {
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   border: 2px solid var(--main-green);
   border-radius: 50%;
   display: flex;
@@ -142,14 +143,14 @@
   animation: moveicon 5s forwards infinite;
 }
 .github {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 .github-icon2 {
   color: #fff;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,8 +163,8 @@
 }
 .github-icon3 {
   color: #fff;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,8 +177,8 @@
 
 .github-icon4 {
   color: #fff;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,8 +190,8 @@
 }
 
 .linkedin-icon1 {
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,8 +207,8 @@
 }
 
 .linkedin-icon2 {
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,7 +225,7 @@
   align-items: center;
   color: #fff;
   background-color: #000;
-  font-size: 27px;
+  font-size: 19px;
   position: absolute;
   right: 7%;
   top: 15%;
@@ -236,7 +237,7 @@
   align-items: center;
   color: #fff;
   background-color: #000;
-  font-size: 27px;
+  font-size: 19px;
   position: absolute;
   right: 9.7%;
   top: 80%;
@@ -248,7 +249,7 @@
   align-items: center;
   color: #fff;
   background-color: #000;
-  font-size: 27px;
+  font-size: 19px;
   position: absolute;
   left: 13%;
   top: 10%;
@@ -260,7 +261,7 @@
   align-items: center;
   color: #fff;
   background-color: #000;
-  font-size: 27px;
+  font-size: 19px;
   position: absolute;
   left: 9%;
   top: 80%;
@@ -268,11 +269,13 @@
 
 .socials {
   align-items: center;
-  display: none;
+  display: flex;
+  justify-content: center;
   transition: all 2s;
-  opacity: 0;
+  opacity: 1;
   cursor: pointer;
   position: relative;
+  padding: 20px 0;
 }
 
 .github-link {
@@ -281,14 +284,25 @@
 .soc-icon {
   font-size: 30px;
   margin: 3px;
+  margin: 0 20px;
   color: var(--main-white);
   cursor: pointer !important;
   z-index: 10;
   position: relative;
 }
-.socials-active {
-  animation: opacity 2s forwards;
-  display: flex;
+.fb:hover {
+  color: rgb(0, 0, 216) !important;
+}
+.github {
+  font-size: 20px !important;
+  width: 40px !important;
+  height: 35px !important;
+}
+.github:hover {
+  color: grey;
+}
+.linkdin:hover {
+  color: rgb(0, 162, 255);
 }
 
 @keyframes opacity {

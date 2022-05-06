@@ -28,28 +28,42 @@ function About() {
                 aliquid!
               </p>
             </div>
+            <div className='about-list-skills'>
+              <div className='about-list'>
+                <div className='about-list-item'>
+                  <h5>Name</h5> <tag>:</tag>
+                  <p>Levan ikaobidze</p>
+                </div>
 
-            <div className='about-list'>
-              <div className='about-list-item'>
-                <h5>Name</h5> <tag>:</tag>
-                <p>Levan ikaobidze</p>
+                <div className='about-list-item'>
+                  <h5>Age </h5> <tag>:</tag>
+                  <p>20</p>
+                </div>
+
+                <div className='about-list-item'>
+                  <h5>Adress</h5> <tag>:</tag> <p>Georgia, Tbilisi</p>
+                </div>
+
+                <div className='about-list-item'>
+                  <h5>Phone</h5> <tag>:</tag> <p>(+995) 598-13-23-16</p>
+                </div>
+
+                <div className='about-list-item'>
+                  <h5>Email</h5> <tag>:</tag> <p>levaniakobidze25@gmail.com</p>
+                </div>
               </div>
-
-              <div className='about-list-item'>
-                <h5>Age </h5> <tag>:</tag>
-                <p>20</p>
-              </div>
-
-              <div className='about-list-item'>
-                <h5>Adress</h5> <tag>:</tag> <p>Georgia, Tbilisi</p>
-              </div>
-
-              <div className='about-list-item'>
-                <h5>Phone</h5> <tag>:</tag> <p>(+995) 598-13-23-16</p>
-              </div>
-
-              <div className='about-list-item'>
-                <h5>Email</h5> <tag>:</tag> <p>levaniakobidze25@gmail.com</p>
+              <div className='skills-wrapper'>
+                <h3 className='skills-title'>Skills</h3>
+                <div className='skills-items'>
+                  <p className='skill'>Css</p>
+                  <p className='skill'>Sass</p>
+                  <p className='skill'>Js</p>
+                  <p className='skill'>React.js</p>
+                  <p className='skill'>React-router</p>
+                  <p className='skill'>Redux</p>
+                  <p className='skill'>Git</p>
+                  <p className='skill'>Github</p>
+                </div>
               </div>
             </div>
             <div className='about-btn'>
