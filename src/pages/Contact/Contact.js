@@ -5,6 +5,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
 import ContactForm from "./ContactForm/ContactForm";
+import Footer from "../../Components/Footer/Footer";
 
 function Contact() {
   const [hover, setHover] = useState(false);

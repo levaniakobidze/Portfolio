@@ -6,13 +6,31 @@ html {
   z-index: 10000000000;
   top: 20%;
   left: 10px;
-  width: 35px;
-  height: 35px;
-  box-shadow: 0 0 10px 1px #fff;
+  width: 25px;
+  height: 25px;
   transform: translate(-50%, -50%);
-  border: 1px solid #fff;
+  border: 0.1px solid #fff;
   mix-blend-mode: difference;
   border-radius: 50%;
   pointer-events: none;
   transition: all 0.1s;
+}
+#inner-cursor {
+  position: fixed;
+  z-index: 10000000000;
+  top: 20%;
+  left: 10px;
+  width: 5px;
+  height: 5px;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  mix-blend-mode: difference;
+  background-color: rgb(9, 199, 104);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.cursor-hover {
+  width: 40px !important;
+  height: 40px !important;
+  box-shadow: 0 0 10px 1px rgb(9, 199, 104) !important;
 }

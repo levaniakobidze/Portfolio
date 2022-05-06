@@ -7,6 +7,7 @@ import Skills from "./pages/Skills/Skills";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
 import React, { useRef } from "react";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
