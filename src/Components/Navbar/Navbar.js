@@ -3,14 +3,13 @@ import "./Navbar.css";
 import Container from "../Container/Container";
 import { FiMenu } from "react-icons/fi";
 import { FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(true);
   const [colorChange, setColorchange] = useState(false);
 
   const changeNavbarColor = () => {
-    if (window.scrollY >= 800) {
+    if (window.scrollY >= 500) {
       setColorchange(true);
     } else {
       setColorchange(false);

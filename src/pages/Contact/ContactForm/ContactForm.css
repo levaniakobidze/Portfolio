@@ -31,6 +31,7 @@
   width: 100%;
   display: flex;
   justify-content: left;
+  margin: 17px 0;
 }
 .submit-btn button {
   width: 150px;
@@ -49,8 +50,7 @@
 
 .submit-btn button:hover {
   background-color: var(--main-green);
-  box-shadow: 0 0 10px 1px #000;
-  background-color: transparent;
+  background-color: rgb(1, 105, 65);
 }
 .valid {
   background-color: var(--main-green) !important;

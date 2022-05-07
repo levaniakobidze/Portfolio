@@ -4,8 +4,9 @@ import "./Contact.css";
 import { AiFillGithub } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
+import PhoneIcon from "@mui/icons-material/Phone";
 import ContactForm from "./ContactForm/ContactForm";
-import Footer from "../../Components/Footer/Footer";
+import EmailIcon from "@mui/icons-material/Email";
 
 function Contact() {
   const [hover, setHover] = useState(false);
@@ -78,6 +79,16 @@ function Contact() {
                   <a href='#'>
                     <AiFillLinkedin className='soc-icon linkdin' />{" "}
                   </a>
+                </div>
+                <div className='email-phone-cont'>
+                  <div className='phone'>
+                    <PhoneIcon className='phone-icon' />
+                    <p>(+995) 598-13-23-16</p>
+                  </div>
+                  <div className='email'>
+                    <EmailIcon className='email-icon' />
+                    <p className='email-p'>levaniakobidze25@gmail.com</p>
+                  </div>
                 </div>
               </div>
             </div>
