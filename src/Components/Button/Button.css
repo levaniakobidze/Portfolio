@@ -3,15 +3,16 @@
   height: 30px;
   border-radius: 25px;
   padding: 10px 20px;
-  color: var(--main-green);
+  color: var(--main-white);
   font-size: 14px;
   font-weight: bold;
   border: 1px solid var(--main-green);
   transition: all 0.3s;
-  box-shadow: inset 0px 0 0 0 var(--main-green);
+
+  box-shadow: inset 200px 0 0 0 var(--main-green);
 }
 .button:hover {
   background: transparent;
   color: var(--main-white);
-  box-shadow: inset 200px 0 0 0 var(--main-green);
+  box-shadow: inset 0px 0 0 0 var(--main-green);
 }
