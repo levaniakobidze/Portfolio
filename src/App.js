@@ -13,7 +13,7 @@ function App() {
   const [upBtn, setUpBtn] = useState(false);
 
   const changeUpBtn = () => {
-    if (window.scrollY >= 140) {
+    if (window.scrollY >= 600) {
       setUpBtn(true);
     } else {
       setUpBtn(false);

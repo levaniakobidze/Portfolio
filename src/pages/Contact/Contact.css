@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .contact-title-span {
   color: var(--main-green);
 }
@@ -66,6 +67,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: top;
+  position: relative;
 }
 
 .sircle1 {
@@ -81,10 +83,7 @@
   align-items: center;
   animation: move 15s forwards infinite;
   transition: all 2s;
-}
-
-.sircle1-active {
-  filter: blur(7px);
+  background-color: #000;
 }
 
 .sircle2 {
@@ -93,7 +92,6 @@
   border: 2px solid var(--main-green);
   animation: moveColor 1.5s forwards infinite;
   border-radius: 50%;
-
   display: flex;
   justify-content: center;
   align-items: center;

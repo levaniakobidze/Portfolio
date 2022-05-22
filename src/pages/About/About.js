@@ -32,7 +32,7 @@ function About() {
               <div className='about-list'>
                 <div className='about-list-item'>
                   <h5>Name</h5> <tag>:</tag>
-                  <p>Levan ikaobidze</p>
+                  <p>Levan iakobidze</p>
                 </div>
 
                 <div className='about-list-item'>
