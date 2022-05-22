@@ -8,7 +8,7 @@ function Home() {
   const [homeBlur, setHomeBlur] = useState(false);
 
   const changeHomeBlur = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 500) {
       setHomeBlur(true);
     } else {
       setHomeBlur(false);

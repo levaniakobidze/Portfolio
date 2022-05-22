@@ -35,3 +35,15 @@ html {
   height: 40px !important;
   box-shadow: 0 0 10px 1px rgb(9, 199, 104) !important;
 }
+
+@media screen and (max-width: 700px) {
+  html {
+    cursor: none;
+  }
+  #outer-cursor {
+    display: none;
+  }
+  #inner-cursor {
+    display: none !important;
+  }
+}

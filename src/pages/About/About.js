@@ -52,22 +52,15 @@ function About() {
                   <h5>Email</h5> <tag>:</tag> <p>levaniakobidze25@gmail.com</p>
                 </div>
               </div>
-              <div className='skills-wrapper'>
-                <h3 className='skills-title'>Skills</h3>
-                <div className='skills-items'>
-                  <p className='skill'>Css</p>
-                  <p className='skill'>Sass</p>
-                  <p className='skill'>Js</p>
-                  <p className='skill'>React.js</p>
-                  <p className='skill'>React-router</p>
-                  <p className='skill'>Redux</p>
-                  <p className='skill'>Git</p>
-                  <p className='skill'>Github</p>
-                </div>
-              </div>
             </div>
             <div className='about-btn'>
-              <Button> Download cv </Button>
+              <a
+                className='download-btn'
+                href={require("../../pictures/Levan-iakobidze-CV.pdf")}
+                download>
+                {" "}
+                Download cv{" "}
+              </a>
             </div>
           </div>
         </div>

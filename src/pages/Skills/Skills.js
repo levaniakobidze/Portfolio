@@ -11,7 +11,7 @@ import { CgFigma } from "react-icons/cg";
 import { SiAdobexd } from "react-icons/si";
 function Skills() {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <Container className='skills-cont'>
         <div className='skills-content-wrapper'>
           <div className='skills-header'>
@@ -20,7 +20,7 @@ function Skills() {
 
           <div className='skills-list-wrapper'>
             <div className='skills-card'>
-              <DiHtml5 className='skills-icon htm' />
+              <DiHtml5 className='skills-icon html' />
               <div className='skill-title'>Html</div>
             </div>
             <div className='skills-card'>

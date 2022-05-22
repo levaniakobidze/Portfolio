@@ -1,6 +1,6 @@
 .about {
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: #000;
   z-index: 2;
   margin-top: 410px;
   position: relative;
@@ -64,7 +64,23 @@
 .about-list-item h5 {
   color: var(--main-green);
 }
-.about-list-item p {
+.download-btn {
+  text-decoration: none;
+  height: 30px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: var(--main-white);
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid var(--main-green);
+  transition: all 0.3s;
+
+  box-shadow: inset 200px 0 0 0 var(--main-green);
+}
+.download-btn:hover {
+  background: transparent;
+  color: var(--main-white);
+  box-shadow: inset 0px 0 0 0 var(--main-green);
 }
 .dot {
   padding: 0 10px;

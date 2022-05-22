@@ -34,6 +34,9 @@ function Navbar() {
               <a href='#about'>About</a>
             </li>
             <li onClick={() => setClick(true)}>
+              <a href='#skills'>Skills</a>
+            </li>
+            <li onClick={() => setClick(true)}>
               <a href='#projects'>Projects</a>
             </li>
 

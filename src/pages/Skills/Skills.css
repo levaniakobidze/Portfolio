@@ -1,6 +1,6 @@
 .skills {
   width: 100%;
-  background-color: #000;
+  background-color: #161722;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -25,16 +25,17 @@
 }
 
 .skills-header h1 {
-  color: #000;
+  color: var(--main-green);
   width: 300px;
   padding: 20px;
   display: flex;
   justify-content: center;
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid var(--main-green);
 }
 .skills-icon {
   font-size: 140px;
-  color: #000;
+  color: var(--main-green);
+  transition: all 0.5s;
 }
 
 .js {
@@ -64,13 +65,52 @@
   margin: 20px;
   border-radius: 10px;
   cursor: pointer;
-  background: linear-gradient(rgb(9, 151, 80), rgb(12, 138, 68));
-  box-shadow: 0 0 6px 5px rgb(6, 85, 46);
+  background-color: #25273c;
+  box-shadow: 5px 5px 10px #000;
   transition: all 0.8s;
+}
+.skill-title {
+  color: var(--main-green);
+  font-size: 18px;
 }
 
 .skills-card:hover {
   margin: 20px;
   border-radius: 0 0 0 50%;
   background: linear-gradient(rgb(11, 197, 104), rgb(11, 177, 86));
+}
+
+.skills-card:hover > .js {
+  color: yellow;
+  background-color: #000;
+}
+.skills-card:hover > .sass {
+  color: pink;
+}
+.skills-card:hover > .css {
+  color: blue;
+}
+
+.skills-card:hover > .html {
+  color: orangered;
+}
+
+.skills-card:hover > .react {
+  color: rgb(3, 160, 250);
+}
+.skills-card:hover > .git {
+  color: orangered;
+}
+
+.skills-card:hover > .figma {
+  color: purple;
+}
+.skills-card:hover > .xd {
+  color: #461934;
+  background-color: #f37df0;
+  border-radius: 40px;
+}
+
+.skills-card:hover > .skill-title {
+  color: #000;
 }
