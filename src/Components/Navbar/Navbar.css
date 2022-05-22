@@ -17,7 +17,7 @@
   z-index: 100000000;
 }
 .navbar-active {
-  background-color: rgb(8, 163, 86) !important;
+  background-color: var(--main-green) !important;
   opacity: 1;
   color: #fff !important;
   height: 50px !important;

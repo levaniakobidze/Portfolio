@@ -14,6 +14,13 @@ export const data = [
     github: "https://github.com/levaniakobidze/Country-search-API",
   },
   {
+    id: 8,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1653212597/quiiz_ckvfzn.png",
+    host: "https://levanquiz.netlify.app/",
+    title: "Quiz",
+    github: "https://github.com/levaniakobidze/Quiz_api",
+  },
+  {
     id: 5,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650572253/todoo_zt2uiz.png",
     host: "https://todo-app-with-react12.netlify.app/",
@@ -55,13 +62,5 @@ export const data = [
     host: "https://quotes-generator12.netlify.app/",
     title: "Quotes generator",
     github: "https://github.com/levaniakobidze/React-Random-Quotes",
-  },
-
-  {
-    id: 8,
-    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1651425412/traff11_niyc3h.png",
-    host: "https://clonetube1.netlify.app/",
-    title: "YouTube clone",
-    github: "https://github.com/levaniakobidze/Youtube-Clone",
   },
 ];
