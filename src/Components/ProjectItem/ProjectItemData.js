@@ -30,7 +30,7 @@ export const data = [
   {
     id: 2,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1649954893/users_q4ebfs.png",
-    host: "https://github-users-search1.netlify.app/",
+    host: "https://githubsearch12.netlify.app/",
     title: "Users search",
     github: "https://github.com/levaniakobidze/Github-Users",
   },
