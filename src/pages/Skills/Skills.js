@@ -19,38 +19,38 @@ function Skills() {
           </div>
 
           <div className='skills-list-wrapper'>
-            <div className='skills-card'>
+            <div className='skills-card' data-aos='slide-down'>
               <DiHtml5 className='skills-icon html' />
               <div className='skill-title'>Html</div>
             </div>
-            <div className='skills-card'>
+            <div className='skills-card' data-aos='fade-up'>
               <DiCss3 className='skills-icon css' />
               <div className='skill-title'>Css</div>
             </div>
-            <div className='skills-card'>
+            <div className='skills-card' data-aos='slide-down'>
               <DiSass className='skills-icon sass' />
               <div className='skill-title'>Sass</div>
             </div>
 
-            <div className='skills-card'>
+            <div className='skills-card' data-aos='slide-up'>
               <SiJavascript className='skills-icon js' />
               <div className='skill-title'>Javascript</div>
             </div>
-            <div className='skills-card'>
+            <div className='skills-card' data-aos='slide-down'>
               <DiReact className='skills-icon react' />
               <div className='skill-title'>React</div>
             </div>
-            <div className='skills-card'>
+            <div className='skills-card' data-aos='slide-up'>
               <DiGit className='skills-icon git' />
               <div className='skill-title'>Git</div>
             </div>
 
-            <div className='skills-card'>
+            <div className='skills-card' data-aos='slide-down'>
               <CgFigma className='skills-icon figma' />
               <div className='skill-title'>Figma</div>
             </div>
 
-            <div className='skills-card'>
+            <div className='skills-card' data-aos='slide-up'>
               <SiAdobexd className='skills-icon xd' />
               <div className='skill-title'>Adobe Xd</div>
             </div>
