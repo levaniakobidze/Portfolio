@@ -9,7 +9,7 @@ html {
   width: 25px;
   height: 25px;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 10px 1px #fff;
+  box-shadow: 0 0 5px 0.11px #fff;
   border: 0.1px solid #fff;
   mix-blend-mode: difference;
   border-radius: 50%;

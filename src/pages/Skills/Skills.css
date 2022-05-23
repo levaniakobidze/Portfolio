@@ -67,7 +67,7 @@
   cursor: pointer;
   background-color: #25273c;
   box-shadow: 5px 5px 10px #000;
-  transition: all 0.8s;
+  transition: all 0.5s !important;
 }
 .skill-title {
   color: var(--main-green);

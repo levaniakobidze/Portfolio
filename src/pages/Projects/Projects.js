@@ -2,19 +2,16 @@ import React, { useState } from "react";
 import Container from "../../Components/Container/Container";
 import "./Projects.css";
 import { data } from "../../Components/ProjectItem/ProjectItemData";
+import { moreData } from "../../Components/ProjectItem/ProjectItemData";
 import ProjectItem from "../../Components/ProjectItem/ProjectItem";
 
 function Projects() {
-  const [color, setColor] = useState(false);
+  const [moreProjects, setMoreProjects] = useState(false);
 
-  const changeColor = () => {
-    if (window.scrollY >= 1900) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
+  const handleClick = (e) => {
+    e.preventDefault();
+    setMoreProjects(() => !moreProjects);
   };
-  window.addEventListener("scroll", changeColor);
 
   return (
     <div className={"projects"} id='projects'>
@@ -37,8 +34,24 @@ function Projects() {
                 />
               );
             })}
+
+            {moreProjects &&
+              moreData.map((project, index) => {
+                return (
+                  <ProjectItem
+                    key={index}
+                    img={project.img}
+                    title={project.title}
+                    host={project.host}
+                    github={project.github}
+                  />
+                );
+              })}
           </div>
         </div>
+        <a href='#projects' onClick={handleClick} className='more-btn'>
+          {!moreProjects ? "More" : "Less"}
+        </a>
       </Container>
     </div>
   );
