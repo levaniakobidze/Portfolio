@@ -1,12 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./Navbar.css";
 import Container from "../Container/Container";
 import { FiMenu } from "react-icons/fi";
 import { FaTimes } from "react-icons/fa";
+import { gsap } from "gsap";
 
 function Navbar() {
   const [click, setClick] = useState(true);
   const [colorChange, setColorchange] = useState(false);
+  const navRef = useRef();
+
+  useEffect(() => {
+    gsap.to(navRef.current, 1, { y: "100%", delay: 1.5 });
+  }, []);
 
   const changeNavbarColor = () => {
     if (window.scrollY >= 500) {
@@ -19,7 +25,9 @@ function Navbar() {
 
   return (
     <Container>
-      <nav className={!colorChange ? "navbar" : "navbar navbar-active"}>
+      <nav
+        ref={navRef}
+        className={!colorChange ? "navbar" : "navbar navbar-active"}>
         <div className='navbar-content'>
           <div className='navbar-logo-wrapper'>
             <h1>Portfolio</h1>

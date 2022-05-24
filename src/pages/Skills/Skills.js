@@ -9,6 +9,8 @@ import { DiReact } from "react-icons/di";
 import { DiGit } from "react-icons/di";
 import { CgFigma } from "react-icons/cg";
 import { SiAdobexd } from "react-icons/si";
+import { SiReactrouter } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
 function Skills() {
   return (
     <div className='skills' id='skills'>
@@ -40,17 +42,28 @@ function Skills() {
               <DiReact className='skills-icon react' />
               <div className='skill-title'>React</div>
             </div>
+
+            <div className='skills-card' data-aos='slide-up'>
+              <SiReactrouter className='skills-icon router' />
+              <div className='skill-title'>React-router</div>
+            </div>
+
+            <div className='skills-card' data-aos='slide-up'>
+              <SiRedux className='skills-icon redux' />
+              <div className='skill-title'>Redux</div>
+            </div>
+
             <div className='skills-card' data-aos='slide-up'>
               <DiGit className='skills-icon git' />
               <div className='skill-title'>Git</div>
             </div>
 
-            <div className='skills-card' data-aos='slide-down'>
+            <div className='skills-card'>
               <CgFigma className='skills-icon figma' />
               <div className='skill-title'>Figma</div>
             </div>
 
-            <div className='skills-card' data-aos='slide-up'>
+            <div className='skills-card'>
               <SiAdobexd className='skills-icon xd' />
               <div className='skill-title'>Adobe Xd</div>
             </div>
