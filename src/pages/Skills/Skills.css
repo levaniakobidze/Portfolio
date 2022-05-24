@@ -1,6 +1,7 @@
 .skills {
   width: 100%;
-  background-color: #161722;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("https://wallpaperaccess.com/full/5170170.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -65,8 +66,8 @@
   margin: 20px;
   border-radius: 10px;
   cursor: pointer;
-  background-color: #25273c;
-  box-shadow: 5px 5px 10px #000;
+  background-color: #222222;
+  box-shadow: 5px 5px 5px #000;
   transition: all 0.5s !important;
 }
 .skill-title {
