@@ -17,8 +17,16 @@
   transition: all 0.3s;
   z-index: 100000000;
 }
-.navbar-active {
+.navbar-green {
   background-color: var(--main-green) !important;
+  opacity: 1;
+  color: #fff !important;
+  height: 50px !important;
+  top: -8.5%;
+}
+.navbar-black {
+  background-color: rgb(34, 34, 34) !important;
+  box-shadow: 0 0 10px 7px #000;
   opacity: 1;
   color: #fff !important;
   height: 50px !important;
@@ -34,6 +42,10 @@
 
 .menu-active {
   color: var(--main-green) !important;
+}
+
+.menu-active li a:hover {
+  color: #fff !important;
 }
 
 .navbar-menu {

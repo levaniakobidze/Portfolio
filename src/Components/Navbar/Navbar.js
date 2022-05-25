@@ -7,7 +7,7 @@ import { gsap } from "gsap";
 
 function Navbar() {
   const [click, setClick] = useState(true);
-  const [colorChange, setColorchange] = useState(false);
+  const [colorChange, setColorchange] = useState("navbar");
   const navRef = useRef();
 
   useEffect(() => {
@@ -15,19 +15,21 @@ function Navbar() {
   }, []);
 
   const changeNavbarColor = () => {
-    if (window.scrollY >= 500) {
-      setColorchange(true);
+    if (window.scrollY >= 500 && window.scrollY < 1650) {
+      setColorchange("navbar navbar-green");
+    } else if (window.scrollY >= 1650 && window.scrollY < 2430) {
+      setColorchange("navbar navbar-black");
+    } else if (window.scrollY >= 2430) {
+      setColorchange("navbar navbar-green");
     } else {
-      setColorchange(false);
+      setColorchange("navbar");
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
-
+  console.log(colorChange);
   return (
     <Container>
-      <nav
-        ref={navRef}
-        className={!colorChange ? "navbar" : "navbar navbar-active"}>
+      <nav ref={navRef} className={colorChange}>
         <div className='navbar-content'>
           <div className='navbar-logo-wrapper'>
             <h1>Portfolio</h1>

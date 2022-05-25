@@ -1,10 +1,10 @@
 .skills {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("https://wallpaperaccess.com/full/5170170.png");
+  background: var(--main-green);
   background-position: center;
   background-size: cover;
   position: relative;
+  padding-bottom: 50px;
 }
 
 .skills-cont {
@@ -26,12 +26,12 @@
 }
 
 .skills-header h1 {
-  color: var(--main-green);
+  color: var(--main-white);
   width: 300px;
   padding: 20px;
   display: flex;
   justify-content: center;
-  border-bottom: 3px solid var(--main-green);
+  border-bottom: 3px solid var(--main-white);
 }
 .skills-icon {
   font-size: 100px;
