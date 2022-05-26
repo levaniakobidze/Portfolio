@@ -13,6 +13,7 @@ import { SiReactrouter } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 function Skills() {
   return (
+     <div className="skills-outer">
     <div className='skills' id='skills'>
       <Container className='skills-cont'>
         <div className='skills-content-wrapper'>
@@ -70,6 +71,7 @@ function Skills() {
           </div>
         </div>
       </Container>
+    </div>
     </div>
   );
 }
