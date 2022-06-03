@@ -30,8 +30,14 @@
   background-color: var(--main-green);
 }
 
-.up-btn-active {
+.up-btn-active-green {
   display: block;
+  background-color: var(--main-green) !important;
+}
+
+.up-btn-active-black {
+  display: block;
+  background-color: #000 !important;
 }
 
 @keyframes iconMove {

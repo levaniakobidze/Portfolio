@@ -41,6 +41,9 @@
 .about-p {
   margin: 20px 0 0 0;
 }
+.about-p p {
+  line-height: 25px;
+}
 .about-list-skills {
   width: 100%;
   display: flex;

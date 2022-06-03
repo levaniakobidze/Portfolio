@@ -19,13 +19,13 @@ function About() {
             </div>
             <div className='about-p'>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Doloremque nemo nobis itaque quaerat a ullam minima voluptas
-                eligendi. Enim porro rem reiciendis totam consectetur vel illo
-                rerum mollitia eos assumenda! Voluptatem expedita non amet sit.
-                Commodi eveniet nesciunt, iure modi voluptatibus hic esse,
-                maiores animi debitis unde nam tempore et veritatis, vitae amet
-                aliquid!
+                I am Levan iakobidze. A beginner front-end developer from
+                Georgia, specializing in React, Responsive web design, CSS,
+                HTML, and Javascript. Also, I have experience working with
+                Css-modules , Sass, Rest Api, Axios.
+                <br />
+                <br />
+                asdasdsad
               </p>
             </div>
             <div className='about-list-skills'>

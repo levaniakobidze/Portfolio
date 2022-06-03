@@ -10,13 +10,17 @@ import Footer from "./Components/Footer/Footer";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 function App() {
-  const [upBtn, setUpBtn] = useState(false);
+  const [upBtn, setUpBtn] = useState("");
 
   const changeUpBtn = () => {
-    if (window.scrollY >= 600) {
-      setUpBtn(true);
+    if (window.scrollY >= 500 && window.scrollY < 1250) {
+      setUpBtn("up-btn-active-green");
+    } else if (window.scrollY >= 1250 && window.scrollY < 2130) {
+      setUpBtn("up-btn-active-black");
+    } else if (window.scrollY >= 2130) {
+      setUpBtn("up-btn-active-green");
     } else {
-      setUpBtn(false);
+      setUpBtn("");
     }
   };
   window.addEventListener("scroll", changeUpBtn);
@@ -30,7 +34,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-      <a className={!upBtn ? "up-btn" : "up-btn up-btn-active"} href='#home'>
+      <a className={`up-btn ${upBtn}`} href='#home'>
         <KeyboardArrowUpIcon className='icon' />
       </a>
     </div>

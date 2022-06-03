@@ -52,12 +52,7 @@ function Home() {
                 <span>e</span>
                 <span>r</span>
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                enim a, illo quia reiciendis magni maiores corporis facere cum
-                unde voluptatem consequatur officiis fugit sapiente et suscipit
-                fuga, molestiae inventore!
-              </p>
+              <p></p>
 
               <div className='home-btn'>
                 <Button href={"#"}> Hire Me</Button>

@@ -33,16 +33,16 @@
 }
 
 .skills-header h1 {
-  color: var(--main-white);
+  color: rgb(24, 24, 24);
   width: 300px;
   padding: 20px;
   display: flex;
   justify-content: center;
-  border-bottom: 3px solid var(--main-white);
+  border-bottom: 3px solid rgb(25, 25, 25);
 }
 .skills-icon {
   font-size: 100px;
-  color: var(--main-green);
+  color: var(--main-white);
   transition: all 0.5s;
 }
 
@@ -83,51 +83,79 @@
   transition: all 0.5s !important;
 }
 .skill-title {
-  color: var(--main-green);
+  color: var(--main-white);
   font-size: 18px;
 }
 
 .skills-card:hover {
   margin: 20px;
   border-radius: 0 0 0 50%;
-  background: linear-gradient(rgb(11, 197, 104), rgb(11, 177, 86));
+  background: linear-gradient(rgb(65, 65, 65), rgb(0, 0, 0));
 }
 
-.skills-card:hover > .js {
+.skills-card > .js {
   color: yellow;
   background-color: #000;
 }
-.skills-card:hover > .sass {
+.skills-card > .sass {
   color: pink;
 }
-.skills-card:hover > .css {
+.skills-card > .css {
   color: blue;
 }
 
-.skills-card:hover > .html {
+.skills-card > .html {
   color: orangered;
 }
 
-.skills-card:hover > .react {
+.skills-card > .react {
   color: rgb(3, 160, 250);
 }
-.skills-card:hover > .git {
+.skills-card > .git {
   color: orangered;
 }
 
-.skills-card:hover > .figma,
-.skills-card:hover > .redux {
+.skills-card > .figma,
+.skills-card > .redux {
   color: purple;
 }
-.skills-card:hover > .xd {
+.skills-card > .xd {
   color: #461934;
   background-color: #f37df0;
   border-radius: 40px;
 }
 
 .skills-card:hover > .skill-title {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
-.skills-card:hover > .router {
+.skills-card > .router {
   color: red;
+}
+
+@media screen and (max-width: 481px) {
+  .skills-card > .xd {
+    width: 70px;
+    height: 70px;
+  }
+  .skills-card > .js {
+    width: 70px;
+    height: 70px;
+  }
+  .skills-card > .redux {
+    width: 70px;
+    height: 70px;
+  }
+  .skills-card {
+    width: 150px;
+    height: 150px;
+    margin: 10px !important;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .skills-card {
+    width: 130px;
+    height: 130px;
+    margin: 10px !important;
+  }
 }
