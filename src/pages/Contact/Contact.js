@@ -69,14 +69,12 @@ function Contact() {
                 <h2>Socials</h2>
 
                 <div className={"socials"}>
-                  <a href='https://github.com/levaniakobidze'>
-                    <BsFacebook className='soc-icon fb' />
-                    {""}
-                  </a>
-                  <a href='#' className='githib-link'>
+                  <a
+                    href='https://github.com/levaniakobidze'
+                    className='githib-link'>
                     <AiFillGithub className='soc-icon github' />{" "}
                   </a>
-                  <a href='#'>
+                  <a href='https://www.linkedin.com/in/levan-iakobidze-b0b60923b/'>
                     <AiFillLinkedin className='soc-icon linkdin' />{" "}
                   </a>
                 </div>
