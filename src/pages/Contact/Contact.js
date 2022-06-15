@@ -61,6 +61,9 @@ function Contact() {
                     <div className='linkedin-icon2'>
                       <AiFillLinkedin className='linkedin' />
                     </div>
+                    <div className='linkedin-icon3'>
+                      <AiFillLinkedin className='linkedin' />
+                    </div>
                     <div className='sircle4'></div>
                   </div>
                 </div>

@@ -22,34 +22,39 @@ function About() {
                 I am Levan iakobidze. A beginner front-end developer from
                 Georgia, specializing in React, Responsive web design, CSS,
                 HTML, and Javascript. Also, I have experience working with
-                Css-modules , Sass, Rest Api, Axios.
-                <br />
-                <br />
-                asdasdsad
+                Css-modules , Sass, Rest Api, Axios and etc.
               </p>
             </div>
             <div className='about-list-skills'>
               <div className='about-list'>
                 <div className='about-list-item'>
-                  <h5>Name</h5> <tag>:</tag>
+                  <h5>Name</h5> <tag className='name-colon'>:</tag>
                   <p>Levan iakobidze</p>
                 </div>
 
                 <div className='about-list-item'>
-                  <h5>Age </h5> <tag>:</tag>
+                  <h5>Age </h5> <tag className='age-colon'>:</tag>
                   <p>20</p>
                 </div>
 
                 <div className='about-list-item'>
-                  <h5>Adress</h5> <tag>:</tag> <p>Georgia, Tbilisi</p>
+                  <h5>Adress</h5> <tag className='adress-colon'>:</tag>{" "}
+                  <p>Georgia, Tbilisi</p>
                 </div>
 
                 <div className='about-list-item'>
-                  <h5>Phone</h5> <tag>:</tag> <p>(+995) 598-13-23-16</p>
+                  <h5>Phone</h5> <tag className='phone-collon'>:</tag>{" "}
+                  <p>(+995) 598-13-23-16</p>
                 </div>
 
                 <div className='about-list-item'>
-                  <h5>Email</h5> <tag>:</tag> <p>levaniakobidze25@gmail.com</p>
+                  <h5>Email</h5>{" "}
+                  <tag
+                    className='email-co
+                  lon'>
+                    :
+                  </tag>{" "}
+                  <p>levaniakobidze25@gmail.com</p>
                 </div>
               </div>
             </div>
