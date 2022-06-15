@@ -77,22 +77,20 @@
   margin: 20px;
   border-radius: 10px;
   cursor: pointer;
-  background-color: #222222;
+  background-color: rgb(34, 34, 34);
   box-shadow: 5px 5px 5px #000;
   transition: all 0.5s !important;
-  box-shadow: 0px 0px 20px #022314;
-  background-color: transparent;
 }
 .skill-title {
-  color: #131313;
+  color: var(--main-white);
   font-size: 18px;
 }
 
 .skills-card:hover {
   transition: all 0.5s;
   margin: 20px;
-  box-shadow: 0px 0px 2px #131313;
-  background-color: #131313;
+  box-shadow: 0px 0px 20px #022314;
+  background-color: transparent;
 }
 
 .skills-card > .js {
