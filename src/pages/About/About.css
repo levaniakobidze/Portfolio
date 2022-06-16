@@ -120,7 +120,26 @@
 .skill:hover {
   color: #fff;
 }
-
+.name-colon {
+  margin-left: 13px;
+  margin-right: 16px;
+}
+.age-colon {
+  margin-left: 27px;
+  margin-right: 18px;
+}
+.adress-colon {
+  margin-left: 9px;
+  margin-right: 13px;
+}
+.phone-colon {
+  margin-left: 11px;
+  margin-right: 13px;
+}
+.email-colon {
+  margin-left: 15px;
+  margin-right: 13px;
+}
 @media screen and (max-width: 998px) {
   .about-text {
     width: 500px;

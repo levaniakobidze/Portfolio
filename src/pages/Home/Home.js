@@ -55,7 +55,10 @@ function Home() {
               <p></p>
 
               <div className='home-btn'>
-                <Button href={"#"}> Hire Me</Button>
+                <a href={"#contact"} className='hireme-btn'>
+                  {" "}
+                  Hire Me
+                </a>
               </div>
             </div>
           </div>

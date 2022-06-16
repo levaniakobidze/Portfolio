@@ -46,7 +46,7 @@ function Skills() {
 
               <div className='skills-card' data-aos='slide-up'>
                 <SiReactrouter className='skills-icon router' />
-                <div className='skill-title'>React-router</div>
+                <div className='skill-title router-title'>React-router</div>
               </div>
 
               <div className='skills-card' data-aos='slide-up'>
@@ -66,7 +66,7 @@ function Skills() {
 
               <div className='skills-card' data-aos='slide-up'>
                 <SiAdobexd className='skills-icon xd' />
-                <div className='skill-title'>Adobe Xd</div>
+                <div className='skill-title '>Adobe Xd</div>
               </div>
             </div>
           </div>

@@ -43,17 +43,12 @@ function About() {
                 </div>
 
                 <div className='about-list-item'>
-                  <h5>Phone</h5> <tag className='phone-collon'>:</tag>{" "}
+                  <h5>Phone</h5> <tag className='phone-colon'>:</tag>{" "}
                   <p>(+995) 598-13-23-16</p>
                 </div>
 
                 <div className='about-list-item'>
-                  <h5>Email</h5>{" "}
-                  <tag
-                    className='email-co
-                  lon'>
-                    :
-                  </tag>{" "}
+                  <h5>Email</h5> <tag className='email-colon'>:</tag>{" "}
                   <p>levaniakobidze25@gmail.com</p>
                 </div>
               </div>
@@ -61,7 +56,7 @@ function About() {
             <div className='about-btn'>
               <a
                 className='download-btn'
-                href={require("../../pictures/Levan-iakobidze-CV.pdf")}
+                href={require("../../pictures/Levan-Iakobidze-CV.pdf")}
                 download>
                 {" "}
                 Download cv{" "}
