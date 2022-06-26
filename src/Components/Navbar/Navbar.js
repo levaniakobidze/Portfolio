@@ -26,7 +26,6 @@ function Navbar() {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
-  console.log(colorChange);
   return (
     <Container>
       <nav ref={navRef} className={colorChange}>

@@ -7,24 +7,9 @@ import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
 import React, { useState } from "react";
 import Footer from "./Components/Footer/Footer";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import SlideUp from "./Components/SlideUp/SlideUp";
 
 function App() {
-  const [upBtn, setUpBtn] = useState("");
-
-  const changeUpBtn = () => {
-    if (window.scrollY >= 500 && window.scrollY < 1250) {
-      setUpBtn("up-btn-active-green");
-    } else if (window.scrollY >= 1250 && window.scrollY < 2130) {
-      setUpBtn("up-btn-active-black");
-    } else if (window.scrollY >= 2130) {
-      setUpBtn("up-btn-active-green");
-    } else {
-      setUpBtn("");
-    }
-  };
-  window.addEventListener("scroll", changeUpBtn);
-
   return (
     <div className='App'>
       <Navbar />
@@ -34,9 +19,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-      <a className={`up-btn ${upBtn}`} href='#home'>
-        <KeyboardArrowUpIcon className='icon' />
-      </a>
+      <SlideUp />
     </div>
   );
 }

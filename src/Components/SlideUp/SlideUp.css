@@ -1,0 +1,58 @@
+.up-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(6, 114, 51);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  top: -180%;
+  cursor: pointer;
+  right: 1%;
+  text-decoration: none;
+  color: var(--main-green);
+  font-size: 29px;
+  display: none;
+  z-index: 20000000000;
+  animation: slideUp 1s forwards;
+}
+.icon {
+  width: 30px;
+  color: #fff;
+  animation: iconMove 1s ease-out forwards infinite;
+}
+.up-btn:hover {
+  background-color: var(--main-green);
+}
+
+.up-btn-active-green {
+  display: block;
+  background-color: var(--main-green) !important;
+  animation: slideUp 1s forwards;
+}
+
+.up-btn-active-black {
+  display: block;
+  background-color: #000 !important;
+  animation: slideUp 1s forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 80%;
+  }
+}
+@keyframes slideDown {
+  0% {
+    top: 80%;
+  }
+  100% {
+    top: 200%;
+  }
+}
