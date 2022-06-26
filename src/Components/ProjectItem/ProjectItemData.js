@@ -28,12 +28,13 @@ export const data = [
     github: "https://github.com/levaniakobidze/React-Todo-app",
   },
   {
-    id: 2,
-    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1649954893/users_q4ebfs.png",
-    host: "https://githubsearch12.netlify.app/",
-    title: "Users search",
-    github: "https://github.com/levaniakobidze/Github-Users",
+    id: 77,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1656272658/typehead_jwriod.png",
+    host: "https://github-typehead-api.vercel.app/",
+    title: "Github Typehead API",
+    github: "https://github.com/levaniakobidze/Github-Typehead-api",
   },
+
   {
     id: 22,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1654271179/rest_hwoctn.png",
@@ -50,18 +51,19 @@ export const data = [
   },
 
   {
+    id: 2,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1649954893/users_q4ebfs.png",
+    host: "https://githubsearch12.netlify.app/",
+    title: "Users search",
+    github: "https://github.com/levaniakobidze/Github-Users",
+  },
+
+  {
     id: 3,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650569021/landing-page_fcq4fi.png",
     host: "https://landingpage1223.netlify.app/",
     title: "Landing page",
     github: "https://github.com/levaniakobidze/Landing-page",
-  },
-  {
-    id: 4,
-    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650570209/quotes_wqtojq.png",
-    host: "https://quotes-generator12.netlify.app/",
-    title: "Quotes generator",
-    github: "https://github.com/levaniakobidze/React-Random-Quotes",
   },
 ];
 
@@ -72,5 +74,12 @@ export const moreData = [
     host: "https://travel-page1.netlify.app/",
     title: "Travel page",
     github: "https://github.com/levaniakobidze/Travel-page",
+  },
+  {
+    id: 4,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650570209/quotes_wqtojq.png",
+    host: "https://quotes-generator12.netlify.app/",
+    title: "Quotes generator",
+    github: "https://github.com/levaniakobidze/React-Random-Quotes",
   },
 ];
