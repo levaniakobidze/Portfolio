@@ -76,6 +76,13 @@ export const moreData = [
     github: "https://github.com/levaniakobidze/Travel-page",
   },
   {
+    id: 90,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1656315158/checkout_ncnj8h.png",
+    host: "https://checkout-page-livid.vercel.app/",
+    title: "Chekout Page",
+    github: "https://github.com/levaniakobidze/Checkout-page",
+  },
+  {
     id: 4,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650570209/quotes_wqtojq.png",
     host: "https://quotes-generator12.netlify.app/",
