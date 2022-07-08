@@ -20,12 +20,13 @@ export const data = [
     title: "Quiz",
     github: "https://github.com/levaniakobidze/Quiz_api",
   },
+
   {
-    id: 5,
-    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650572253/todoo_zt2uiz.png",
-    host: "https://todo-app-with-react12.netlify.app/",
-    title: "Todo-App",
-    github: "https://github.com/levaniakobidze/React-Todo-app",
+    id: 88,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1657298802/landing1_rkgteo.png",
+    host: "https://test-project12.vercel.app/",
+    title: "Landing page (API)",
+    github: "https://github.com/levaniakobidze/tech-test-landing-page-api",
   },
   {
     id: 77,
@@ -68,6 +69,13 @@ export const data = [
 ];
 
 export const moreData = [
+  {
+    id: 5,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650572253/todoo_zt2uiz.png",
+    host: "https://todo-app-with-react12.netlify.app/",
+    title: "Todo-App",
+    github: "https://github.com/levaniakobidze/React-Todo-app",
+  },
   {
     id: 1,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1649954772/landing_v1fmpo.png",
