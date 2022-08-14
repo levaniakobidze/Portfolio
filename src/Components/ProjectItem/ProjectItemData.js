@@ -70,6 +70,13 @@ export const data = [
 
 export const moreData = [
   {
+    id: 517,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1660495945/filters_buan9x.png",
+    host: "https://products-filter-js-theta.vercel.app/",
+    title: "Product Filter (JS)",
+    github: "https://github.com/levaniakobidze/Products-filter",
+  },
+  {
     id: 5,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650572253/todoo_zt2uiz.png",
     host: "https://todo-app-with-react12.netlify.app/",
