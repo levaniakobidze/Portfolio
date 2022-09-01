@@ -1,5 +1,12 @@
 export const data = [
   {
+    id: 234,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1662023058/Screenshot_from_2022-09-01_11-03-49_kupplg.png",
+    host: "shopping-cart-levan.vercel.app",
+    title: "Shopping cart",
+    github: "https://github.com/levaniakobidze/Shopping-cart",
+  },
+  {
     id: 6,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1651179636/ytclone_uuueoy.png",
     host: "https://clonetube1.netlify.app/",
@@ -59,13 +66,7 @@ export const data = [
     github: "https://github.com/levaniakobidze/Github-Users",
   },
 
-  {
-    id: 3,
-    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650569021/landing-page_fcq4fi.png",
-    host: "https://landingpage1223.netlify.app/",
-    title: "Landing page",
-    github: "https://github.com/levaniakobidze/Landing-page",
-  },
+  
 ];
 
 export const moreData = [
@@ -103,5 +104,12 @@ export const moreData = [
     host: "https://quotes-generator12.netlify.app/",
     title: "Quotes generator",
     github: "https://github.com/levaniakobidze/React-Random-Quotes",
+  },
+  {
+    id: 3,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650569021/landing-page_fcq4fi.png",
+    host: "https://landingpage1223.netlify.app/",
+    title: "Landing page",
+    github: "https://github.com/levaniakobidze/Landing-page",
   },
 ];
