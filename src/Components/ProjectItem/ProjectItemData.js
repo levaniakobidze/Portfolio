@@ -2,7 +2,7 @@ export const data = [
   {
     id: 234,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1662023058/Screenshot_from_2022-09-01_11-03-49_kupplg.png",
-    host: "shopping-cart-levan.vercel.app",
+    host: "https://shopping-cart-levan.vercel.app",
     title: "Shopping cart",
     github: "https://github.com/levaniakobidze/Shopping-cart",
   },
@@ -65,8 +65,6 @@ export const data = [
     title: "Users search",
     github: "https://github.com/levaniakobidze/Github-Users",
   },
-
-  
 ];
 
 export const moreData = [
