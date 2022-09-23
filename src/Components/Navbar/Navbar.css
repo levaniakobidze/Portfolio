@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: -10%;
+  top: -8.5%;
   right: 0;
   left: 0;
   transition: all 0.3s;
@@ -124,6 +124,7 @@
 @media screen and (max-width: 1218px) {
   .navbar-content {
     max-width: 72rem;
+    background-color: red;
   }
 }
 

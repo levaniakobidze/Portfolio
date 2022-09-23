@@ -23,7 +23,7 @@ export const data = [
   {
     id: 8,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1653212597/quiiz_ckvfzn.png",
-    host: "https://levanquiz.netlify.app/",
+    host: "https://quiz-api-levaniakobidze.vercel.app/",
     title: "Quiz ( api )",
     github: "https://github.com/levaniakobidze/Quiz_api",
   },
