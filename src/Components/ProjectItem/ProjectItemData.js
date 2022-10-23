@@ -7,6 +7,13 @@ export const data = [
     github: "https://github.com/levaniakobidze/Shopping-cart",
   },
   {
+    id: 18,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1666535908/ent_ut6pjp.png",
+    host: "https://entertainment-web-app-levan.vercel.app/",
+    title: "Intertainment app",
+    github: "https://github.com/levaniakobidze/entertainment-web-app",
+  },
+  {
     id: 6,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1651179636/ytclone_uuueoy.png",
     host: "https://clonetube1.netlify.app/",
@@ -26,6 +33,13 @@ export const data = [
     host: "https://quiz-api-levaniakobidze.vercel.app/ ",
     title: "Quiz ( api )",
     github: "https://github.com/levaniakobidze/Quiz_api",
+  },
+  {
+    id: 5,
+    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650572253/todoo_zt2uiz.png",
+    host: "https://react-todo-app-levan.vercel.app/",
+    title: "Todo-App",
+    github: "https://github.com/levaniakobidze/React-Todo-app",
   },
   {
     id: 9,
@@ -49,6 +63,9 @@ export const data = [
     title: "Resturant page",
     github: "https://github.com/levaniakobidze/resturant-landing-page",
   },
+];
+
+export const moreData = [
   {
     id: 7,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1651425412/traff11_niyc3h.png",
@@ -56,7 +73,6 @@ export const data = [
     title: "Landing page",
     github: "https://github.com/levaniakobidze/trafalgar-landing-page",
   },
-
   {
     id: 2,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1649954893/users_q4ebfs.png",
@@ -64,9 +80,6 @@ export const data = [
     title: "Users search",
     github: "https://github.com/levaniakobidze/Github-Users",
   },
-];
-
-export const moreData = [
   {
     id: 517,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1660495945/filters_buan9x.png",
@@ -74,13 +87,7 @@ export const moreData = [
     title: "Product Filter (JS)",
     github: "https://github.com/levaniakobidze/Products-filter",
   },
-  {
-    id: 5,
-    img: "https://res.cloudinary.com/diyky5uya/image/upload/v1650572253/todoo_zt2uiz.png",
-    host: "https://todo-app-with-react12.netlify.app/",
-    title: "Todo-App",
-    github: "https://github.com/levaniakobidze/React-Todo-app",
-  },
+
   {
     id: 1,
     img: "https://res.cloudinary.com/diyky5uya/image/upload/v1649954772/landing_v1fmpo.png",
